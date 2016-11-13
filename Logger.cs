@@ -1,10 +1,6 @@
 ﻿using OpenSupportEngine.Logging.LoggingProvider;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OpenSupportEngine.Logging
 {
@@ -22,7 +18,7 @@ namespace OpenSupportEngine.Logging
         private static bool isLoggingEnabled;
         private static Dictionary<LoggingCategory, bool> loggingCategories =
             new Dictionary<LoggingCategory, bool>();
-        
+
         public static void EnableCategory(LoggingCategory category, bool enable)
         {
             loggingCategories[category] = enable;
