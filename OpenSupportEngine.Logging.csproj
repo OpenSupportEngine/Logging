@@ -48,6 +48,7 @@
     <Compile Include="LoggingFormatProvider\LogAttribute.cs" />
     <Compile Include="LoggingFormatProvider\LoggingAction.cs" />
     <Compile Include="LoggingFormatProvider\StandardLoggingFormatProvider.cs" />
+    <Compile Include="LoggingProvider\DummyLoggingProvider.cs" />
     <Compile Include="LoggingProvider\FileLoggingProvider.cs" />
     <Compile Include="LoggingProvider\ILoggingProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
